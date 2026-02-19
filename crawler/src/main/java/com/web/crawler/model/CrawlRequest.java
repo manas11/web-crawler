@@ -4,8 +4,7 @@ public class CrawlRequest {
 
     private String url;
 
-    public CrawlRequest() {
-    }
+    public CrawlRequest() {}
 
     public CrawlRequest(String url) {
         this.url = url;

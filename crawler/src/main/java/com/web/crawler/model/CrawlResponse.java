@@ -16,19 +16,8 @@ public class CrawlResponse {
         this.topics = topics;
     }
 
-    public String getUrl() {
-        return url;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public List<String> getTopics() {
-        return topics;
-    }
+    public String getUrl() { return url; }
+    public String getTitle() { return title; }
+    public String getDescription() { return description; }
+    public List<String> getTopics() { return topics; }
 }

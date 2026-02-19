@@ -12,15 +12,7 @@ public class Metadata {
         this.body = body;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public String getBody() {
-        return body;
-    }
+    public String getTitle() { return title; }
+    public String getDescription() { return description; }
+    public String getBody() { return body; }
 }
